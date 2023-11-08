@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body 
+    {
+    font-family: 'Trebuchet MS'; 
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    }
+    /*
+     Medidas absolutas: 
+     cm, mm, in (polegada), px, pt, pc
+     Medidas Relativas: 
+     em, ex (altura x), rem, vw (tamanho da tela), vh (altura da view), %
+
+     Recomendações da W3C é sempre o px e em
+     Geralmente 16px = 1em
+     */
+        h1, h2 
+        {
+        font-family: 'Times New Roman', Times, serif;
+        }
+
+    h1
+    { 
+        /* Shorthand font
+        font-style -> font-weight -> font-size -> font-family */
+    font: italic bolder 3em 'Work Sans', sans-serif;
+    }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus nihil repudiandae dolorem culpa autem ab mollitia deserunt reiciendis nisi pariatur amet saepe, ipsam sed incidunt, deleniti voluptate, architecto blanditiis soluta?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta dolore assumenda nobis neque in, accusamus sed possimus ex porro dolores architecto? In sapiente magni eum quia corrupti voluptatibus aut ut.</p>
+            <h2>Subtítulo do exercício</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, cum voluptatibus. Numquam inventore delectus provident beatae id, laboriosam facere aspernatur officiis, distinctio autem dolor debitis hic voluptate dolorum rem impedit?</p>   
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body { 
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        a { 
+            color: blue;
+            text-decoration: none; /*tira os sublinhados automáticos*/
+            font-weight: bold;
+        }
+        a:visited {/*Site que já foram visitados*/
+            color: darkblue;
+        }
+        a:hover{/*Quando passa o mouse*/
+            color: black;
+            text-decoration: underline;
+        }
+        a:active { /*Quando o link é clicado*/
+            color: red;
+        }
+        a::before {
+            content: "→";
+        }
+        a::after {
+            content: "←";
+        }
+        .externo {
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+        <ul>
+            <li><a href="https://gustavoguanabara.github.io" target="_blank" rel="external">Repositório GithHub</a></li>
+            <li><a href="https://youtube.com/cursoemvideo/" target="_blank" rel="external">Canal do Youtube</a></li>
+            <li><a href="https://www.cursoemvideo.com" target="_blank" rel="external">Site do Curso em video</a></li>
+        </ul>
+        <p><a href="pseudoclassse.html" target="_self" rel="next" class="externo">Link para próxima página</a></p>
+        <p class="externo"><a href="hover.html" target="_self" rel="prev" class="externo">Link para página anterior</a></p>
+</body>
+</html>

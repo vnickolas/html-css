@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas (download)</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Satisfy&display=swap'); /*Pacifico*/ 
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&family=Satisfy&display=swap'); /*Dancing Script*/ 
+        @font-face {
+            font-family: Filxgirl;
+            src: url(Filxgirl.TTF) format(truetype);
+            /*
+            Tipo de formatos
+            - opetype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            truetype-aat (apple advanced typography)
+            - svg
+            */
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        body { 
+            font-family: 'Dancing Script';
+            font-size: x-large;
+            font-weight: 500;
+        }
+
+        h1 { 
+            font-family: 'Filxgirl';
+            font-size: 2em;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo, perferendis. Numquam illum nesciunt, in, at, doloribus asperiores voluptatem qui magnam eius est maiores. Aperiam rerum reiciendis tempora quod temporibus provident?</p>
+</body>
+</html>

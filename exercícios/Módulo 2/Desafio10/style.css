@@ -1,0 +1,207 @@
+@charset "UF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    background-image: linear-gradient(#FFFFFF, #353235);
+    background-attachment: fixed;
+    margin: 0px;
+    text-align: justify;
+}
+main p { /*não coloca o sinal de >, pois queremos abranger todo os p dentro do main, independente se estiver dentro de outras tags*/
+    margin: 15px 0px; /*Colocar espaçamento 15px em cima (top) e embaixo (bottom)*/
+    text-align: justify;
+    line-height: 25px; /*espaçamento de linhas*/
+}
+/*O QUE EU FIZ
+header {
+    margin-top: -10px;
+    padding: 70px;
+    background-image: linear-gradient(to right, #4B9070, #083040, #72AD94);
+    background-attachment: fixed;
+}
+O QUE EU FIZ*/
+
+/*O DO PROFESSOR*/
+
+header {
+    background-image: linear-gradient(to right, #4B9070, #083040, #72AD94);
+    background-attachment: fixed;
+    min-height: 150px;
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 5px;
+}
+
+/*O DO PROFESSOR*/
+
+
+* { /*Sempre colocar essa formatação para conseguiur reorganizar as margens, aconchoamentos, imagens dinâmicas, etc*/
+    margin: 0px;
+    padding: 0px;
+}
+main {
+    background-color: rgba(255, 255, 255, 0.521);
+    min-width: 300px;
+    max-width: 800px;
+    margin: auto;
+    padding: 50px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0px 0px 16px black;
+}
+main img {
+    width: 100%;
+}
+main img.droidpequeno {
+    display: block; /*colocar a imagem como bloco, pois ele não é mostrado como bloco de forma automática, e colocando para mostrar ele como bloco, dá para centralizar*/ 
+    margin: auto; /*Para centralizar*/
+    width: 50%; /*Para diminiur a largura dele*/
+    /*Ou falar para ele que ele só pode chegar até tal tamanho com o 'max-width:'*/
+}
+
+
+/*O QUE EU FIZ
+header > h1 {
+text-align: center;
+color: white;
+margin-bottom: 34px;
+}
+header > h2 {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+nav > a {
+    text-decoration: none;
+    padding: 14px;
+    color: #dcfdeff3;
+    border-radius: 15px;
+}
+O QUE EU FIZ*/
+
+/*O DO PROFESSOR*/
+
+header h1 {
+    color: white;
+    margin-bottom: 34px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 58px;
+    text-shadow: 2px 2px 5px black;
+}
+header h2 {
+    color: white;
+    margin-bottom: 34px;
+    font-size: 16px;
+    text-shadow: 2px 2px 5px black;
+    margin: auto;
+    margin-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/*O DO PROFESSOR*/
+nav {
+    padding: 20px;
+    background-color: #083040;
+    box-shadow: 0px 0px 6px black;
+}
+nav a {
+    text-decoration: none;
+    padding: 14px;
+    color: #dcfdeff3;
+    border-radius: 15px;
+}
+nav > a:hover {
+    background-color: rgb(255, 255, 255);
+    color: #385c4df3;
+    box-sizing: -10px;
+    transition-duration: 0.8s;
+}
+main h1 {
+    text-align: left;
+    font-family: 'idroid';
+    font-size: 2em;
+    padding-left: 8px;
+    background-image: linear-gradient(to right, #40776080, rgba(255, 255, 255, 0));
+}
+main p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+}
+main h2 {
+    font-family: 'idroid';
+    padding-left: 8px;
+}
+.danmorrill {
+    background-color: #72ad942c;
+    text-decoration: none;
+    padding: 1px;
+    color: #083040;
+}
+.danmorrill::after {
+    content: '\1F517\00A0';
+    color: black;
+}
+.inkscape {
+    background-color: #72ad942c;
+    text-decoration: none;
+    padding: 1px;
+    color: #083040;
+}
+.dandroids {
+    background-color: #72ad942c;
+    text-decoration: none;
+    padding: 1px;
+    color: #083040;
+}
+.irinablok {
+    background-color: #72ad942c;
+    text-decoration: none;
+    padding: 1px;
+    color: #083040;
+}
+.comentariofoto1 {
+    text-indent: 30px; /*espaço para início do parágrafo*/
+}
+div.video {
+    background-color: #353235;
+    margin: 0px -50px 30px -50px; 
+    padding-bottom: 45%; /*Usado para mostrar o quão grande PARA BAIXO, a caixa vai ficar, visto  ter a position relative*/
+    position: relative;
+}
+div.video > iframe {
+    position: absolute;
+    top: 5%; /*o tamanho da ponta do vídeo na parte superior à esquerda, até o topo do background*/
+    left: 5%; /*o tamanho da ponta do vídeo na parte superior à esquerda, até à esquerda do background*/
+    height: 90%; /*aumenta o tamanho do vídeo (no caso, aumenta o comprimento para baixo) até o limite do background*/
+    width: 90%; /*aumenta a largura do vídeo (no caso, aumenta a largura para a direita) até o limite do background*/
+}
+aside {
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 10px;
+}
+aside h1 {
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+}
+aside > ul {
+    list-style-position: inside;
+    columns: 2;
+    text-decoration: none;
+}
+article p {
+    padding: 18px;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: small;
+}

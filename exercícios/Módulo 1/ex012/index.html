@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HMTL</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmentte aumentte e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/FotoP.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/FotoM.png" type="image/png">
+        <img src="Imagens/FotoG.png" alt="Imagem flexível">
+    </picture>
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML</p>
+    <audio>
+        <source src="midia/MESSIIIIIIIIIIII.mp3" type="audio/mpeg">
+        <source src="midia/MESSIIIIIIIIIIII.ogg" type="audio/ogg">
+        <source src="midia/MESSIIIIIIIIIIII.wav" type="audio/wav">
+    </audio>
+    <p>Infelizmente eu navegador não consegue reproduzir áudio. <a href="midia/MESSIIIIIIIIIIII.mp3"> Clique aqui para baixar o arquivo.</a></p> <!--MP3, WAV E OGG, são arquivos de áudio que podem ser compatíveis-->
+</body>
+</html>

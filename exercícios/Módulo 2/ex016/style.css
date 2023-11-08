@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+*   {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+body {
+    background-image: linear-gradient(to top, #D4C976, #d4c9767e);
+    background-attachment: fixed
+    }
+
+main { 
+    background-color: aliceblue;
+    width: 750px; /*largura*/
+    padding: 10px; /*espaço do final dos textos até a borda que começa a cor de fundo*/
+    margin: auto; /*centraliza automático o campo do main (onde possuímos os textos)*/
+    border-radius: 25px; /*adicional bordas*/
+    box-shadow: 5px /*qto anda para lado*/ 5px /*qto anda para baixo*/ 15px /*qto vai espalhar*/ 
+    #817148 /*cor/transparência*/;
+    }
+h1 {
+    color: rgba(0, 0, 0, 0.151);
+    text-align: center;
+    text-shadow: 1px 2px 1px black;
+}
+h2 {
+    color: #64693a;
+    text-shadow: 1px 1px 1px #64693a49;
+}
+
+p   {
+    text-align: justify;
+    }

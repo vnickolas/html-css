@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de hover</title>
+    <style>
+        body { font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+        div > p { /*Cria ação para os 'p' que estão dentro da div, nesse caso, esconde os 'p' display: none;)*/
+            display: none;
+        }
+        div:hover > p {/*Cria ação para que quando passar o mouse em cima (hover) da div, apareça o 'p' que estão dentro da div*/
+            display: block;
+            color: black;
+            background-color: blanchedalmond;
+            width: 200px;
+    
+        }
+        div:hover {
+            color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+        <p>Passe o mouse sobre o texto abaixo</p>
+        <div>
+            Passe o mouse aqui
+            <p>Texto surpresa...</p>
+        </div>
+    <p><a href="links.html" target="_self" rel="next">Link para próxima página</a></p>
+</body>
+</html>
