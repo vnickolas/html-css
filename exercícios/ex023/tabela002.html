@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            background-color: bisque;
+        }
+        table {
+            border-collapse: collapse;
+            width: 400px;
+            height: 50px;
+        }
+        th {
+            background-color: rgb(197, 118, 15);
+        }
+        td, th {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--
+        Anatomia para tabelas grandes:
+        TABLE
+            THEAD (CABEÇALHO)
+                TR (ROW [LINDA]), TD (DADO), TH (LEGENDA PARA FILTRAGEM)
+            TBODY (CORPO)
+                TR (ROW [LINDA]), TD (DADO), TH 
+            TFOOT (RODAPÉ)
+                TR (ROW [LINDA]), TD (DADO), TH 
+    -->
+    <table>
+        <thead>
+            <th>Estado</th>
+            <th>População</th>
+        </thead>
+        <tbody>
+            <td>São Paulo</td>
+            <td>45.919.049</td>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+    </table>
+</body>
+</html>
