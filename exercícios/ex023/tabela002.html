@@ -14,6 +14,10 @@
             height: 50px;
             position: relative;
         }
+        thead{
+            position: sticky;
+            top: -1px;
+        }
         caption {
             font-size: 1.5em;
             font-weight: bold;
@@ -25,11 +29,6 @@
         thead, tfoot {
             background-color: rgb(197, 82, 15);
             color: azure;
-        }
-        thead{
-            position: sticky;
-            top: -1px;
-
         }
         tbody tr:nth-child(2n){
             background-color: rgba(145, 136, 124, 0.507);
@@ -57,9 +56,9 @@
             THEAD (CABEÇALHO)
                 TH (LEGENDA PARA FILTRAGEM), TR (ROW [LINDA]), TD (DADO)
             TBODY (CORPO)
-                TH (LEGENDA PARA FILTRAGEM), TR (ROW [LINDA]), TD (DADO) 
+                TR (ROW [LINDA]), TD (DADO) 
             TFOOT (RODAPÉ)
-                TH (LEGENDA PARA FILTRAGEM), TR (ROW [LINDA]), TD (DADO)
+                TR (ROW [LINDA]), TD (DADO)
     -->
     <table>
         <caption>População das unidades federativas</caption>
