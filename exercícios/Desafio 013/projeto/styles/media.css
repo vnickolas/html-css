@@ -2,7 +2,7 @@
     
     .logofacebook {
         display: inline;
-        background-image: url(pacote-d013/imagens/logo-facebook.jpg);
+        background-image: url(../pacote-d013/imagens/logo-facebook.jpg);
         max-width: 100px;
         min-width: 100px; /*usando 'max-min' deixa o celular fixado nesse tamanho*/
         max-height: 100px;
@@ -17,7 +17,7 @@
     }
     .logogithub {
         display: inline;
-        background-image: url(pacote-d013/imagens/logo-github.jpg);
+        background-image: url(../pacote-d013/imagens/logo-github.jpg);
         max-width: 100px;
         min-width: 100px; /*usando 'max-min' deixa o celular fixado nesse tamanho*/
         max-height: 100px;
@@ -32,7 +32,7 @@
     }
     .logoinstagram {
         display: inline;
-        background-image: url(pacote-d013/imagens/logo-instagram.jpg);
+        background-image: url(../pacote-d013/imagens/logo-instagram.jpg);
         max-width: 100px;
         min-width: 100px; /*usando 'max-min' deixa o celular fixado nesse tamanho*/
         max-height: 100px;
@@ -47,7 +47,7 @@
     }
     .logotwitter {
         display: inline;
-        background-image: url(pacote-d013/imagens/logo-twitter.jpg);
+        background-image: url(../pacote-d013/imagens/logo-twitter.jpg);
         max-width: 100px;
         min-width: 100px; /*usando 'max-min' deixa o celular fixado nesse tamanho*/
         max-height: 100px;
@@ -62,7 +62,7 @@
     }
     .logoyoutube {
         display: inline;
-        background-image: url(pacote-d013/imagens/logo-youtube.jpg);
+        background-image: url(../pacote-d013/imagens/logo-youtube.jpg);
         max-width: 100px;
         min-width: 100px;
         max-height: 100px;
@@ -78,7 +78,7 @@
     
     .home {    
         display: inline;
-        background-image: url(pacote-d013/imagens/logo-home.jpg);
+        background-image: url(../pacote-d013/imagens/logo-home.jpg);
         max-width: 100px;
         min-width: 100px;
         max-height: 100px;
