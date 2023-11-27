@@ -5,19 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Redes Sociais</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="mediapq.css">
+    <link rel="shortcut icon" href="pacote-d013/imagens/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <section class="fundo">
-        <nav>
-            <div class="logofacebook"></div>
-            <div class="logogithub"></div>
-            <div class="logoinstagram"></div>
-            <div class="logotwitter"></div>
-            <div class="logoyoutube"></div>
+    <section class="fundo"> <!--Para colocar a tela do celular-->
+        <nav> <!--Criando os ícones-->
+            <a href="pag01.html" target="frame"> <!--Colocando todo o ícone como link-->
+                <div class="logofacebook"> </div> <!--Ícone que posso estabelecer a imagem dele no CSS-->
+            </a>
+            <a href="pag02.html" target="frame"> <!--Lembrando que o target do link será para o frame, na qual eu nomiei ele lá embaixo com a tag 'name="frame"'-->
+                <div class="logogithub" > </div>
+            </a>
+            <a href="pag03.html" target="frame">
+                <div class="logoinstagram"> </div>
+            </a>
+            <a href="pag04.html" target="frame">
+                <div class="logotwitter"> </div>
+            </a>
+            <a href="pag05.html" target="frame">
+                <div class="logoyoutube"> </div>
+            </a>
+            
+            <a href="paghome.html" target="frame">
+                <div class="home"> </div>
+            </a>
         </nav>
         <article class="iphone">
 
-            <iframe src="pag001.html" frameborder="0" scrolling="no">
+            <iframe src="paghome.html" name="frame"  frameborder="0" scrolling="yes">
             </iframe>
 
             </article>
