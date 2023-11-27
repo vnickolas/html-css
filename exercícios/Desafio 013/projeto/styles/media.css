@@ -1,13 +1,7 @@
 @media screen and (max-width: 1200px) {
     
     .logofacebook {
-        display: inline;
         background-image: url(../pacote-d013/imagens/logo-facebook.jpg);
-        max-width: 100px;
-        min-width: 100px; /*usando 'max-min' deixa o celular fixado nesse tamanho*/
-        max-height: 100px;
-        min-height: 100px;
-        background-size: 100% 100%; 
         border-radius: 180%;
         
         position: absolute;
@@ -18,11 +12,6 @@
     .logogithub {
         display: inline;
         background-image: url(../pacote-d013/imagens/logo-github.jpg);
-        max-width: 100px;
-        min-width: 100px; /*usando 'max-min' deixa o celular fixado nesse tamanho*/
-        max-height: 100px;
-        min-height: 100px;
-        background-size: 100% 100%; 
         border-radius: 180%;
         
         position: absolute;
@@ -33,11 +22,6 @@
     .logoinstagram {
         display: inline;
         background-image: url(../pacote-d013/imagens/logo-instagram.jpg);
-        max-width: 100px;
-        min-width: 100px; /*usando 'max-min' deixa o celular fixado nesse tamanho*/
-        max-height: 100px;
-        min-height: 100px;
-        background-size: 100% 100%; 
         border-radius: 180%;
         
         position: absolute;
@@ -48,11 +32,6 @@
     .logotwitter {
         display: inline;
         background-image: url(../pacote-d013/imagens/logo-twitter.jpg);
-        max-width: 100px;
-        min-width: 100px; /*usando 'max-min' deixa o celular fixado nesse tamanho*/
-        max-height: 100px;
-        min-height: 100px;
-        background-size: 100% 100%; 
         border-radius: 180%;
         
         position: absolute;
@@ -63,11 +42,6 @@
     .logoyoutube {
         display: inline;
         background-image: url(../pacote-d013/imagens/logo-youtube.jpg);
-        max-width: 100px;
-        min-width: 100px;
-        max-height: 100px;
-        min-height: 100px;
-        background-size: 100% 100%; 
         border-radius: 180%;
         
         position: absolute;
@@ -79,11 +53,6 @@
     .home {    
         display: inline;
         background-image: url(../pacote-d013/imagens/logo-home.jpg);
-        max-width: 100px;
-        min-width: 100px;
-        max-height: 100px;
-        min-height: 100px;
-        background-size: 100% 100%;
         border-radius: 180%;
         position: absolute;
         left: 70%;
