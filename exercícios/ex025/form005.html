@@ -9,10 +9,21 @@
     <h1>Exemplo de Formulário</h1>
         <form action="cadastro.php" method="post">
             <fieldset>
+                <legend>Sexo</legend>
+                <!--Todos os botões de 'radio' devem ter o mesmo 'name'-->
+                <input type="radio" name="sexo" id="ixmas" value="M"><label for="sxmas">Masculino</label><br>
+                <input type="radio" name="sexo" id="ixfem" value="F"><label for="ixfem">Feminino</label>
+            </fieldset>
+
+            <fieldset>
             <legend>Esportes Favoritos</legend>   
                 <input type="checkbox" name="esfut" id="ifut"> <label for="ifut">Futebol</label><br>
+                <input type="checkbox" name="esbas" id="ibas"><label for="ibas">Basquete</label><br>
+                <input type="checkbox" name="esnat" id="inat"><label for="inat">Natação</label><br>
+                <input type="checkbox" name="esten" id="iten"><label for="iten">Tênis</label><br>
 
-
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
 
             </fieldset>
 
