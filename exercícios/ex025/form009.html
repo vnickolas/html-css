@@ -9,10 +9,14 @@
     <h1>Exemplo de formulário</h1>
     <form action="cadastro.php" method="post" autocomplete="on">
         <fieldset>
-            <legend>Cores</legend>
-            <p><label for="icor">Cor:</label> <input type="color" name="cor" id="icor"></p>
-            <p><label for="irange">Nível de satisfação:</label> <input type="range" name="range" id="irange"></p>
-            <p><label for="ifile">Foto de perfil:</label> <input type="file" name="file" id="ifile"></p>
+            <legend>Teste de range com número à mostra</legend>
+
+            <p>
+                <label for="inum">Número:</label> 
+                <input type="range" name="num" id="inum" min="0" max="10" value="2" oninput="ival.innerHTML = Number (inum.value)">
+                <output id="ival">2</output>
+            </p>
+
         </fieldset>
         <p>
             <input type="submit" value="Enviar">

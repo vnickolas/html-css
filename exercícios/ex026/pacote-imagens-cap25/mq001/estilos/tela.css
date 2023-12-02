@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/*Estilos para telas*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+header > h1 {
+    text-align: center;
+    padding: 5px 5px;
+    font-size: 3em;
+}
+menu {
+    background-color: rgba(128, 128, 128, 0.397);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ul {
+    text-align: center;
+}
+li {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    background-color: grey;
+    border-radius: 30px;
+}
+article {
+    display: block;
+    max-width: 600px;
+    margin: auto;
+}
