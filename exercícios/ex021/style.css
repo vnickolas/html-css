@@ -1,21 +1,22 @@
 @charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     background-color: dimgray;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 header  {
     padding: 10px;
-    margin: 10px;
 }
 h1 {
-    width: 1855px;
     box-shadow: 3px 6px 20px black;
     background-color: aliceblue;
     border-radius: 10px;
-    padding: 10px;
-    margin-top: -2px;
+    padding: 15px;
 }
 article {
     background-color: lightgray;
@@ -29,10 +30,10 @@ article > aside {
 }
 nav {
     background-color:burlywood;
-    padding: 3px;
+    padding: 10px;
     box-shadow: 2px 2px 16px black;
-    border-radius: 25px;
-    margin: 30px;
+    border-radius: 35px;
+    margin: 20px;
 }
 nav > a {
     text-decoration: none;
