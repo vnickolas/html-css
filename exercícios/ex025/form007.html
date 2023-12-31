@@ -10,8 +10,11 @@
     <form action="cadastro.php" method="post" autocomplete="on">
         <fieldset>
             <legend>Cadastro</legend>
+
+            <!-- ----------ESTADO---------- -->
             <label for="iest">Estado:</label>
-            <select name="Estado" id="iest">
+            <select name="Estado" id="iest"> 
+                <!-- faz uma lista -->
 
                 <option value="" selected>Escolha um estado</option>
                 <optgroup label="Região sudeste">
@@ -27,6 +30,7 @@
                 </optgroup>
             </select>
             <p>
+                <!-- ----------PROFISSÃO---------- -->
                 <label for="iprof">Profissão:</label>
                 <input type="text" name="prof" id="iprof" list="lstprof">
                 <datalist id="lstprof">
@@ -36,9 +40,10 @@
                     <option>Professor</option>
                 </datalist>
             </p>
+            <!-- ----------MENSAGEM---------- -->
             <p>
                 <label for="imsg">Mensagem:</label><br>
-                <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="Deixe sua mensagem aqui!"></textarea>
+                <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="Deixe sua mensagem aqui!" style="resize: none;"></textarea>
             </p>
                 
         </fieldset>
