@@ -15,13 +15,19 @@
     <form action="cadastro.php" method="get"> <!--autocomplete="off", para desativar o preenchimento automático-->
         <!--Usar o 'get' quando não for dados sensíveis, quiser URLs compartilhaveis e quando os dados dentro do formulário não ultrapassarem 3mil bytes (3 mil letras)
             e o 'Post' para dados sensíveis (senhas, informações pessoais, etc, o melhor é https)-->
-        <p><label for="inome">Nome</label>:
-            <input type="text" name="nome" id="inome"></p> <!--'name' mais útil para html e php e 'id' mais útil para javascript e labels -->
+        <p>
+            <label for="inome">Nome</label>:
+            <input type="text" name="nome" id="inome">
+        </p> <!--'name' mais útil para html e php e 'id' mais útil para javascript e labels -->
 
-        <p><label for="isobrenome">Sobrenome:</label>
-            <input type="text" name="sobrenome" id="isobrenome"></p>
+        <p>
+            <label for="isobrenome">Sobrenome:</label>
+            <input type="text" name="sobrenome" id="isobrenome">
+        </p>
             
-        <p><input type="submit" value="Enviar"></p>
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
     </form>
 </body>
 </html>
